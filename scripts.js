@@ -11,8 +11,9 @@ document.getElementById('uploadButton').addEventListener('click', () => {
     const playlist = document.getElementById('playlist');
     playlist.innerHTML = ''; // Clear previous playlist items
 
+    // Process each file
     Array.from(files).forEach(file => {
-        // Check if the file is an audio file
+        // Only process audio files
         if (file.type.startsWith('audio/')) {
             const listItem = document.createElement('li');
             listItem.textContent = file.name;
