@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYNC.LY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SYNC.LY</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Music</h2>
+            <input type="file" id="fileInput" multiple webkitdirectory mozdirectory>
+            <button id="uploadButton">Upload Music</button>
+        </section>
+        <section id="playlist-section">
+            <h2>Your Playlist</h2>
+            <ul id="playlist"></ul>
+        </section>
+        <section id="player-section">
+            <h2>Now Playing</h2>
+            <audio id="audioPlayer" controls></audio>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
