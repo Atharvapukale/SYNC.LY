@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#upload-section {
+    margin-bottom: 1rem;
+}
+
+#fileInput {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #4a0072;
+}
+
+#playlist-section {
+    margin-bottom: 1rem;
+}
+
+#playlist {
+    list-style: none;
+    padding: 0;
+}
+
+#playlist li {
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#playlist li:hover {
+    background-color: #d0cfd0;
+}
+
+#player-section {
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+}
